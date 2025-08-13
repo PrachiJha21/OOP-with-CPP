@@ -7,7 +7,8 @@
 // area(double radius) → calculates area of a circle.
 #include<iostream>
 using namespace std;
-
+class Area{
+public:
 int area(int side){
     return side * side;
 }
@@ -19,10 +20,12 @@ int area(int length, int breadth){
 double area(double radius){
     return 3.1415 * radius * radius;
 }
+};
 
 int main(){
-    cout<<area(2)<<endl;
-    cout<<area(2,3)<<endl;
-    cout<<area(4.00);
+    Area A;
+    cout<<A.area(2)<<endl;
+    cout<<A.area(2,3)<<endl;
+    cout<<A.area(4.00);
     return 0;
 }
