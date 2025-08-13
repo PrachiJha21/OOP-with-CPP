@@ -1,5 +1,4 @@
-// C++ program to demonstrate the
-// above concept
+// C++ program to demonstrate the const concept
 #include <iostream>
 using namespace std;
 
