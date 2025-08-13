@@ -1,2 +1,2 @@
-# OOP-with-C-
+# OOP-with-CPP
 Second Semester Labs
