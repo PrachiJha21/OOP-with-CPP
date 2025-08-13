@@ -1,3 +1,6 @@
+/*Write a C++ program to display a Bhat-Bhateni Supermarket (Biratnagar) bill using manipulators.
+The bill should include store details, customer information, an itemized table (Sn, Particulars, Qty, Rate, Amount), and calculations for Gross Amount, VAT (13%), Net Amount, Tender, Change, and Total Quantity with
+proper alignment and formatting.*/
 #include<iostream>
 #include<iomanip>
 using namespace std;
