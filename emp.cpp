@@ -9,7 +9,7 @@ class Employee{
     double salary;
     string name;
     public:
-        Employee(int id, double money, string n){
+        Employee(int id, double money, string n){       //parameterized constructor
             emp_id = id;
             salary = money;
             name = n;
@@ -21,11 +21,11 @@ class Employee{
                 cout<<"Name of the employee: "<<name<<endl<<"Employee ID: "<<emp_id<<endl<<"Salary: "<<salary<<endl;
         }
         ~Employee(){
-            cout<<"Logging out";
+            cout<<"Logging out";            //invoked at the very end of the program
         }
 };
 
 int main(){
-    Employee e1(1000, 200000.0, "Ram");    
+    Employee e1(1000, 200000.0, "Ram");                 
     e1.display();
 }

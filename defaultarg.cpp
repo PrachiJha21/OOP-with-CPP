@@ -1,9 +1,6 @@
 // Write a function power(base, exponent) where:
-
 // exponent has a default value of 2 (so if not given, it calculates the square).
-
 // Ask the user for the base, and optionally the exponent.
-
 // Test both with and without passing the exponent.
 
 #include<iostream>

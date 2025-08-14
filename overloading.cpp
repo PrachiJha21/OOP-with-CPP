@@ -1,9 +1,6 @@
 // Write three overloaded functions named area:
-
 // area(int side) → calculates area of a square.
-
 // area(int length, int breadth) → calculates area of a rectangle.
-
 // area(double radius) → calculates area of a circle.
 #include<iostream>
 using namespace std;
