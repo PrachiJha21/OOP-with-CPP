@@ -7,12 +7,12 @@ using namespace std;
 class BankAccount{
     double balance;
     double deposit;
-    friend void updateBalance(BankAccount obj);
+    friend void updateBalance(BankAccount &obj);
     public:
         BankAccount(double vall = 0, double sum = 1000): deposit{vall}, balance{sum}{}  
 };
 
-void updateBalance(BankAccount obj){
+void updateBalance(BankAccount &obj){
     cout<<"Updated balance is: NRs "<<obj.balance + obj.deposit;
 }
 
