@@ -6,17 +6,17 @@
 using namespace std;
 class Area{
 public:
-int area(int side){
-    return side * side;
-}
+    int area(int side){
+        return side * side;
+    }
 
-int area(int length, int breadth){
-    return length * breadth;
-}
-
-double area(double radius){
-    return 3.1415 * radius * radius;
-}
+    int area(int length, int breadth){
+        return length * breadth;
+    }
+    
+    double area(double radius){
+        return 3.1415 * radius * radius;
+    }
 };
 
 int main(){
