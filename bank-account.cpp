@@ -13,7 +13,8 @@ class BankAccount{
 };
 
 void updateBalance(BankAccount &obj){
-    cout<<"Updated balance is: NRs "<<obj.balance + obj.deposit;
+    obj.balance += obj.deposit;   
+    cout<<"Updated balance is: NRs "<<obj.balance;
 }
 
 int main(){
