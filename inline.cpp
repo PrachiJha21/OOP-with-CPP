@@ -1,9 +1,6 @@
 // Write an inline function maxOfThree(a, b, c) that returns the largest of three numbers.
 // Then:
-
 // Call it for three integers entered by the user.
-
-// Test it for at least three different sets of numbers.
 
 #include<iostream>
 using namespace std;

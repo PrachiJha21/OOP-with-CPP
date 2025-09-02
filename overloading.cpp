@@ -3,6 +3,7 @@
 // area(int length, int breadth) → calculates area of a rectangle.
 // area(double radius) → calculates area of a circle.
 #include<iostream>
+#include<cmath>
 using namespace std;
 class Area{
 public:
@@ -15,7 +16,7 @@ public:
     }
     
     double area(double radius){
-        return 3.1415 * radius * radius;
+        return M_PI * radius * radius;
     }
 };
 

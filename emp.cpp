@@ -28,4 +28,5 @@ class Employee{
 int main(){
     Employee e1(1000, 200000.0, "Ram");                 
     e1.display();
+    return 0;
 }
