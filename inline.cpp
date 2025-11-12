@@ -1,3 +1,5 @@
+// NOT FOR LAB REPORT
+
 // Write an inline function maxOfThree(a, b, c) that returns the largest of three numbers.
 // Then:
 // Call it for three integers entered by the user.
