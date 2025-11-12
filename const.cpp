@@ -1,4 +1,4 @@
-// C++ program to demonstrate the const concept
+// C++ program to demonstrate the const concept(NOT IN LABS)
 #include <iostream>
 using namespace std;
 
